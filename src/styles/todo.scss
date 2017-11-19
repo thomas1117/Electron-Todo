@@ -1,0 +1,35 @@
+body {
+    font-family: 'helvetica';
+    background: #202020;
+}
+.todo-form {
+    .todo-input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: #202020;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #89BDFF;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+.todo-item-container {
+    color: #89BDFF;
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    .todo-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        list-style: none;
+        position: relative;
+
+        .todo-delete {
+            position: absolute;
+            right: 0;
+        }
+    }
+}
